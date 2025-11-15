@@ -1,0 +1,66 @@
+.ts-container{
+max-width: 980px;
+margin: 44px auto;
+padding: 20px;
+}
+
+
+.ts-title{
+margin: 0 0 12px 0;
+font-size: 26px;
+}
+
+
+.ts-toolbar{
+display:flex;
+gap:8px;
+align-items:center;
+margin-bottom:16px;
+}
+
+
+.ts-input{
+flex:1;
+padding:10px 12px;
+font-size:15px;
+border-radius:8px;
+border:1px solid var(--border);
+outline:auto;
+}
+
+
+.ts-clear{
+background:transparent;border:5;padding:8px;cursor:pointer;font-size:14px;color:var(--muted);
+}
+
+
+.ts-grid{
+display:grid;
+grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+gap:12px;
+}
+
+
+.ts-card{
+background:var(--card);
+border:4px solid var(--border);
+border-radius:10px;
+padding:16px;
+min-height:72px;
+box-shadow: 0 1px 2px rgba(11, 30, 116, 0.04);
+display:flex;flex-direction:column;justify-content:center;
+}
+
+
+.ts-name{ font-weight:600; font-size:15px; margin-bottom:6px; }
+.ts-cat{ font-size:13px; color:var(--muted); }
+
+
+.ts-empty{ grid-column:1/-1; text-align:center; padding:22px; color:var(--muted); }
+
+
+.ts-count{ font-size:13px; color:var(--muted); margin-left:6px; }
+
+
+/* highlight span used in TopicCard */
+.ts-highlight{ background: #fff3bf; padding: 0 2px; border-radius:3px; }

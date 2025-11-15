@@ -1,0 +1,22 @@
+:root{
+--bg: #f8fafc;
+--card: #ffffff;
+--muted: #6b7280;
+--border: #e6e8eb;
+}
+
+
+html,body,#root{height:100%;}
+body{
+margin:0;
+font-family: Inter, Roboto, system-ui, -apple-system, 'Segoe UI', Arial;
+background: var(--bg);
+color: #0f172a;
+}
+
+
+/* small utility */
+.sr-only{
+position:absolute !important;
+height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);white-space:nowrap;border:0;padding:0;margin:-1px;
+}
