@@ -20,12 +20,6 @@ Highlighted matched text in topic names.
 Clear “X” button to reset search.
 Topic count indicator.
 
-# Accessibility
-
-aria-label for search input.
-Screen-reader accessible structure.
-aria-live="polite" for announcing search results.
-
 # Code Quality
 
 Separated components.
